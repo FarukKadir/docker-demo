@@ -1,4 +1,4 @@
 FROM openjdk:8
-ADD target/lab-2-aws-0.0.1-SNAPSHOT.jar lab-2-aws-0.0.1-SNAPSHOT.jar
+ADD target/clouddemo-0.0.1-SNAPSHOT.jar clouddemo-0.0.1-SNAPSHOT.jar
 EXPOSE 8081
-ENTRYPOINT ["java","-jar","lab-2-aws-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-jar","clouddemo-0.0.1-SNAPSHOT.jar"]
